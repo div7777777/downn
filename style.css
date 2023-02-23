@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.demo{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    z-index: -1;
+    background: yellow;
+    height: 200px;
+    width: 200px;
+}
+.download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+    left: 72px;
+    height: 40px;
+    width: 50px;
+    border-radius: 7px;
+    background: rgba(20, 200, 200, 0.4);   
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    border-radius: 7px;
+    background: rgba(20, 200, 200, 0.4);
+    height: 40px;
+    width: 50px;
+    top: 70px;
+    left: 65px;
+}
+.download:hover .down{
+    box-shadow: 0.4px 0.4px 0.7em white;
+    background: rgba(20, 200, 200, 0.7);
+    transition: 0.2s smooth;
+}
